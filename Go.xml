@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings>
+  <!-- TargetDisplayLength Min=10 Max=50 -->
+  <TargetDisplayLength>500</TargetDisplayLength>
+  <Sound>1</Sound>
+
+  <!-- NOTE! Ampersands in values must be HTML encoded, i.e. &amp; not just & (yes really!) -->
+  <!-- To use a pass-through argument specify the Key Name ending in a slash e.g. Mantis/ 
+        AND specify {0} as the placeholder in the Arguments to pass the argument to -->
+
+  <!-- Reserved Keys -->
+  <!-- Here > Opens Windows Explorer and displayed the current folder (where Go was executed in DOS)-->
+
+  <Keys>
+    <!--  Blank Key XML Element to be copied as template
+    <Key>
+      <Name></Name>
+      <Exe></Exe>
+      <Arguments></Arguments>
+    </Key>
+    -->
+    <Key>
+      <Name>Yeti</Name>
+      <Target>https://www.instagram.com/bajayeti/</Target>
+      <Arguments></Arguments>
+    </Key>
+    <Key>
+      <Name>RLive</Name>
+      <Target>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</Target>
+      <Arguments>http://r-live.ricardo.com/Pages/Home.aspx</Arguments>
+    </Key>
+    <Key>
+      <Name>Traffic</Name>
+      <Target>C:\Program Files\Internet Explorer\iexplore.exe</Target>
+      <Arguments>http://opsweb/STARSTrafficLights</Arguments>
+    </Key>
+    <Key>
+      <Name>SAP</Name>
+      <Target>C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe</Target>
+      <Arguments></Arguments>
+    </Key>
+    <Key>
+      <Name>ERIS</Name>
+      <Target>http://opsweb/ERISV2</Target>
+      <Arguments></Arguments>
+    </Key>
+    <Key>
+      <Name>ERIS/</Name>
+      <Target>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</Target>
+      <Arguments>http://opsweb/ERISV2/Installation/Search?instno={0}&amp;access=edit&amp;view=edit&amp;explore=1010</Arguments>
+    </Key>
+    <Key>
+      <Name>FO</Name>
+      <Target>\\stc.ricplc.com\sites\stc\Departments\Facility Operations</Target>
+      <Arguments></Arguments>
+    </Key>
+    <Key>
+      <Name>Mantis/</Name>
+      <Target>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</Target>
+      <Arguments>http://opsweb/MantisBT/view.php?id={0}</Arguments>
+    </Key>
+  </Keys>
+</Settings>
