@@ -27,12 +27,12 @@
     <Key>
       <Name>RWorld</Name>
       <Target>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</Target>
-      <Arguments>http://r-world/</Arguments>
+      <Arguments>http://r-world</Arguments>
     </Key>
     <Key>
       <Name>GitHub</Name>
       <Target>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</Target>
-      <Arguments>https://github.com/browncolin/</Arguments>
+      <Arguments>https://github.com/browncolin</Arguments>
     </Key>
     <Key>
       <Name>Traffic</Name>
