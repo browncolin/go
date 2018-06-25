@@ -20,11 +20,6 @@
     </Key>
     -->
     <Key>
-      <Name>Yeti</Name>
-      <Target>https://www.instagram.com/bajayeti/</Target>
-      <Arguments></Arguments>
-    </Key>
-    <Key>
       <Name>RLive</Name>
       <Target>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</Target>
       <Arguments>http://r-live.ricardo.com/Pages/Home.aspx</Arguments>
@@ -48,11 +43,6 @@
       <Name>ERIS/</Name>
       <Target>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</Target>
       <Arguments>http://opsweb/ERISV2/Installation/Search?instno={0}&amp;access=edit&amp;view=edit&amp;explore=1010</Arguments>
-    </Key>
-    <Key>
-      <Name>FO</Name>
-      <Target>\\stc.ricplc.com\sites\stc\Departments\Facility Operations</Target>
-      <Arguments></Arguments>
     </Key>
     <Key>
       <Name>Mantis/</Name>
