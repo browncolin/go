@@ -1,15 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Settings>
-  <!-- TargetDisplayLength Min=10 Max=50 -->
   <TargetDisplayLength>500</TargetDisplayLength>
   <Sound>1</Sound>
-
-  <!-- NOTE! Ampersands in values must be HTML encoded, i.e. &amp; not just & (yes really!) -->
-  <!-- To use a pass-through argument specify the Key Name ending in a slash e.g. Mantis/ 
-        AND specify {0} as the placeholder in the Arguments to pass the argument to -->
-
-  <!-- Reserved Keys -->
-  <!-- Here > Opens Windows Explorer and displayed the current folder (where Go was executed in DOS)-->
 
   <Keys>
     <!--  Blank Key XML Element to be copied as template
